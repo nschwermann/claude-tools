@@ -1,0 +1,15 @@
+{
+  "name": "claude-tools",
+  "description": "Custom Claude Code plugins for blockchain development, subgraph exploration, and workflow automation",
+  "owner": {
+    "name": "Nathan Schwermann",
+    "url": "https://github.com/nschwermann"
+  },
+  "plugins": [
+    {
+      "name": "subgraph-explorer",
+      "source": "./subgraph-explorer",
+      "description": "Explore and query blockchain subgraphs through a private MCP server with Docker management and query export utilities"
+    }
+  ]
+}
