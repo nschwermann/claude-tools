@@ -1,31 +1,9 @@
 {
   "name": "subgraph-explorer",
-  "description": "Explore and query blockchain subgraphs through a private MCP server running in Docker. Provides schema exploration, query execution, and export utilities for NFT, DEX, and DeFi data.",
+  "description": "Explore and query blockchain subgraphs through a private MCP server running in Docker. Provides schema exploration, query execution, and export utilities for NFT, DEX, and DeFi data. Requires Docker, Docker Compose, and Python 3.",
   "version": "1.0.0",
   "author": {
     "name": "Nathan Schwermann",
     "url": "https://github.com/nschwermann"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/nschwermann/claude-tools"
-  },
-  "keywords": [
-    "blockchain",
-    "subgraph",
-    "graphql",
-    "nft",
-    "dex",
-    "defi",
-    "mcp",
-    "docker"
-  ],
-  "requirements": {
-    "description": "Requires Docker and Docker Compose for MCP server. Python 3 for query export utilities.",
-    "external": [
-      "Docker",
-      "Docker Compose",
-      "Python 3"
-    ]
   }
 }
